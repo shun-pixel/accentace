@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shun-pixel.github.io/accentace/sitemap.xml
+Sitemap: https://accentace.co.jp/sitemap.xml
