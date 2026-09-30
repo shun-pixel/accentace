@@ -163,9 +163,9 @@ a.card:hover .card__img img{transform:scale(1.04)}
 .marquee:hover .marquee__track{animation-play-state:paused}
 .marquee__list{display:flex;gap:14px;padding-right:14px;flex:none}
 .marquee__list li{flex:none;width:176px;height:74px;background:#fff;border-radius:10px;border:1px solid var(--line);display:grid;place-items:center;padding:14px 20px}
-.marquee__list img{max-height:100%;max-width:100%;width:auto;object-fit:contain}
+.marquee__list img{max-height:46px;max-width:100%;width:auto;height:auto;object-fit:contain}
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media (max-width:560px){.marquee__list li{width:140px;height:60px;padding:10px 14px}.marquee__track{animation-duration:36s}}
+@media (max-width:560px){.marquee__list li{width:140px;height:60px;padding:10px 14px}.marquee__list img{max-height:40px}.marquee__track{animation-duration:36s}}
 @media (prefers-reduced-motion:reduce){.marquee{overflow-x:auto;mask-image:none;-webkit-mask-image:none}.marquee__track{animation:none}.marquee__list+.marquee__list{display:none}}
 .card.is-hidden{display:none}
 .section--sky .card{border-color:transparent}
