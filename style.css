@@ -367,6 +367,10 @@ a.card:hover .card__img img{transform:scale(1.04)}
 .entry{background:#fff;border-radius:var(--radius);border:1px solid var(--line);padding:clamp(28px,4vw,48px);text-align:center;display:flex;flex-direction:column;align-items:center;gap:16px}
 .entry h3{font-size:clamp(20px,2.4vw,26px);font-weight:900}
 .entry p{max-width:36em;font-size:14.5px}
+.entry__req{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.entry__req li{background:var(--sky);color:var(--blue-ink);border-radius:999px;padding:8px 16px;font-size:13.5px;font-weight:700}
+.entry__note{font-size:12.5px!important;color:var(--mist);max-width:40em}
+.entry__note a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
 .entry .mail{font-size:clamp(16px,2vw,20px);font-weight:700;color:var(--blue-deep);word-break:break-all}
 
 /* Privacy */
