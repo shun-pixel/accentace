@@ -35,7 +35,7 @@
       var li = document.createElement('li');
       if (i >= INITIAL) li.className = 'is-hidden';
       li.innerHTML =
-        '<a href="' + n.url + '" target="_blank" rel="noopener">' +
+        '<a href="' + n.url + '"' + (/^https?:/.test(n.url) ? ' target="_blank" rel="noopener"' : '') + '>' +
         '<time datetime="' + n.date.replace(/\//g, '-') + '">' + n.date + '</time>' +
         '<span class="t"></span>' +
         '<svg class="ext" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7h-2V6.4l-9.3 9.3-1.4-1.4L17.6 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>' +
